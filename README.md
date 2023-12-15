@@ -12,20 +12,20 @@
 ## Installation
 
 ```bash
-npm install --save react-final-form-listeners react-final-form final-form
+npm install --save @emekalites/react-final-form-listeners react-final-form final-form
 ```
 
 or
 
 ```bash
-yarn add react-final-form-listeners react-final-form final-form
+yarn add @emekalites/react-final-form-listeners react-final-form final-form
 ```
 
 ## Usage
 
 ```jsx
 import { Form, Field } from 'react-final-form'
-import { OnChange } from 'react-final-form-listeners'
+import { OnChange } from '@emekalites/react-final-form-listeners'
 
 const MyForm = () => (
   <Form
@@ -75,7 +75,7 @@ const MyForm = () => (
 
 ## Components
 
-The following can be imported from `react-final-form-listeners`.
+The following can be imported from `@emekalites/react-final-form-listeners`.
 
 ### `ExternallyChanged`
 
